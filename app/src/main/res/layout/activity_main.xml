@@ -31,6 +31,7 @@
         android:background="#2CD1C2"
         android:backgroundTint="#27CDE3"
         android:hapticFeedbackEnabled="false"
+        android:onClick="handleSwitchAnotherScreenButton"
         android:text="SWITCH TO ANOTHER SCREEN"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

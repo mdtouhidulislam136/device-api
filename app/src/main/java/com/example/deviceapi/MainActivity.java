@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void handleSwitchAnotherScreenButton(View view) {
+        Intent intent = new Intent(this, SwitchToAnotherScreenActivity.class);
+        startActivity(intent);
+    }
 }
